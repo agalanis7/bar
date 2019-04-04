@@ -15,7 +15,7 @@ You can start the server using the following command. Make sure to swap out "/Us
    a) PORT=3000
    b) SEND_GRID_API_KEY= get your own api key
    c) JWT_SECRET= can be any password
-   d) For development MONGODB_URL= MONGODB_URL=mongodb://127.0.0.1:27017/taskapp  (or anyname you want to give your dev db)
+   d) For development MONGODB_URL= MONGODB_URL=mongodb://127.0.0.1:27017/taskapp  (or any name you want to give your dev db)
 6. npm run dev or yarn run dev
 
 To run jest test suite run npm run test or yarn run test
