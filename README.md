@@ -12,10 +12,6 @@ You can start the server using the following command. Make sure to swap out "/Us
 3. delete node_modules and package-lock.json if present
 4. run npm i or yarn
 5. create config directory in root of project with test.env and dev.env files with the env variables listed below
-   a) PORT=3000
-   b) SEND_GRID_API_KEY= get your own api key
-   c) JWT_SECRET= can be any password
-   d) For development MONGODB_URL= MONGODB_URL=mongodb://127.0.0.1:27017/taskapp  (or any name you want to give your dev db)
 6. npm run dev or yarn run dev
 
 To run jest test suite run npm run test or yarn run test
@@ -23,6 +19,11 @@ To run jest test suite run npm run test or yarn run test
 If you want a GUI for your database use either Robo3t or MongoDB Compass.
 
 Make sure to set environment variables for PORT, SENDGRID_API_KEY, JWT_SECRET, MONGODB_URL in a Config directory at the root of your project. Inside Config directory add test.env and dev.env each with those 4 variables.
+
+1) PORT=3000
+2) SEND_GRID_API_KEY= get your own api key
+3) JWT_SECRET= can be any password
+4) For development MONGODB_URL= MONGODB_URL=mongodb://127.0.0.1:27017/taskapp
 
 To deploy:
 Set the same environment variables for heroku/dokku except the PORT variable can be left out.
