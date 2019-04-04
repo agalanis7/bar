@@ -31,3 +31,5 @@ Set the same environment variables for heroku/dokku except the PORT variable can
 Heroku Environment variables can be set through the command line or directly on heroku.com.
 Dokku environments variables can be set from the command line only.
 dokku config:set appname KEY=value KEY_2=value2 KEY_3=value3
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9736846b31eae2710b6c)
