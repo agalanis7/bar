@@ -9,7 +9,7 @@ You can start the server using the following command. Make sure to swap out "/Us
 /Users/Andrew/mongodb/bin/mongod --dbpath=/Users/Andrew/mongodb-data
 
 1. git clone
-2. cd lead-generators
+2. cd nodejs-taskapp
 3. delete node_modules and package-lock.json if present
 4. run npm i or yarn
 5. create config directory in root of project with test.env and dev.env files with the env variables listed below
