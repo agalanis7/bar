@@ -7,7 +7,7 @@ const sendWelcomeEmail = (email, name) => {
 		to: email,
 		from: 'info@leopolicastro.com',
 		subject: 'Welcome!',
-		text: `Welcome to Kronia ${name}! I hope you like it.`
+		text: `Welcome to your task manager ${name}! I hope you like it.`
 		// html: ''I can place html tags and elements inside this field
 	});
 };
