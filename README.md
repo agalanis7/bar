@@ -4,13 +4,13 @@ Requirements: MongoDBCommunnityServer
 https://www.mongodb.com/download-center/community
 
 You can download the MongoDB Community Server from the MongoDB download page. The download is a zip file. Unzip the contents, change the folder name to "mongodb", and move it to your users home directory. From there, create a "mongodb-data" directory in your user directory to store the database data.
-You can start the server using the following command. Make sure to swap out "/Users/Andrew/" with the correct path to your users home directory.
+You can start the server using the following command. Make sure to swap out "/Users/Leo/" with the correct path to your users home directory.
 
-/Users/Andrew/mongodb/bin/mongod --dbpath=/Users/Andrew/mongodb-data
+/Users/Leo/mongodb/bin/mongod --dbpath=/Users/Leo/mongodb-data
 
 1. git clone
 2. cd nodejs-taskapp
-3. delete node_modules and package-lock.json if present
+3. delete package-lock.json
 4. run npm i or yarn
 5. create config directory in root of project with test.env and dev.env files with the env variables listed below
 6. npm run dev or yarn run dev
